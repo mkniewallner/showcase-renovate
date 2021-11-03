@@ -2,6 +2,11 @@ name: Update dependencies using a custom Renovate Docker image based on slim
 
 on:
   workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        required: true
+        default: "info"
 
 jobs:
   renovate:
@@ -22,5 +27,6 @@ jobs:
           -e RENOVATE_TOKEN="x-access-token:${{ steps.generate_token.outputs.token }}"
           -e GITLAB_PYPI_SECRET_NAME=${{ secrets.GITLAB_PYPI_SECRET_NAME }}
           -e GITLAB_PYPI_SECRET=${{ secrets.GITLAB_PYPI_SECRET }}
+          -e LOG_LEVEL=${{ github.event.inputs.logLevel }}
           -v ${{ github.workspace }}/.renovate/config.js:/usr/src/app/config.js
           renovate
