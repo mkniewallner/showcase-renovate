@@ -8,7 +8,7 @@ $ docker run --rm \
     -e RENOVATE_TOKEN=$GITHUB_TOKEN \
     -e GITLAB_PYPI_SECRET_NAME=$GITLAB_PYPI_SECRET_NAME \
     -e GITLAB_PYPI_SECRET=$GITLAB_PYPI_SECRET \
-    -v (pwd)/.renovate/config.js:/usr/src/app/config.js \
+    -v $(pwd)/.renovate/config.js:/usr/src/app/config.js \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v /tmp:/tmp \
     renovate/renovate:slim
@@ -27,7 +27,7 @@ docker run --rm \
     -e RENOVATE_TOKEN=$GITHUB_TOKEN \
     -e GITLAB_PYPI_SECRET_NAME=$GITLAB_PYPI_SECRET_NAME \
     -e GITLAB_PYPI_SECRET=$GITLAB_PYPI_SECRET \
-    -v (pwd)/.renovate/config.js:/usr/src/app/config.js \
+    -v $(pwd)/.renovate/config.js:/usr/src/app/config.js \
     renovate
 ```
 
