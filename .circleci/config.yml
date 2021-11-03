@@ -1,0 +1,14 @@
+version: 2.1
+
+orbs:
+  slack: circleci/slack@4.3.1
+  python: circleci/python@1.4.0
+
+jobs:
+  build:
+    environment:
+      POETRY_VERSION: "1.1.10" # renovate: datasource=pypi depName=poetry
+    docker:
+      - image: python:3.9.6-slim-bullseye
+    steps:
+      - run: python --version

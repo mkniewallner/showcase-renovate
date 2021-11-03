@@ -1,0 +1,29 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "showcase"
+version = "0.1.0"
+description = ""
+authors = ["Mathieu Kniewallner <mathieu.kniewallner@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+mkv-private-package = { version = "0.1.0", source = "gitlabpriv" }
+starlette = "0.15.0"
+uvicorn = "0.15.0"
+
+[tool.poetry.dev-dependencies]
+httpx = "0.20.0"
+mypy = "0.900"
+pytest = "6.2.5"
+pytest-asyncio = "0.16.0"
+
+[[tool.poetry.source]]
+name = "gitlabpriv"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+secondary = true
+
+[tool.black]
+target-version = ["py39"]
