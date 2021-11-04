@@ -7,7 +7,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
   PATH=$PATH:/root/.local/bin
 
 # renovate: datasource=pypi depName=poetry
-ENV POETRY_VERSION=1.1.10
+ENV POETRY_VERSION=1.1.11
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
   curl \
