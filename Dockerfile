@@ -1,4 +1,4 @@
-FROM python:3.9.6-slim-bullseye AS builder
+FROM python:3.10.0-slim-bullseye AS builder
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
   PIP_NO_CACHE_DIR=1 \
@@ -30,7 +30,7 @@ RUN poetry config http-basic.gitlab-pypi ${GITLAB_PYPI_SECRET_NAME} ${GITLAB_PYP
 RUN . /app/venv/bin/activate && poetry install --no-dev --no-interaction --no-ansi
 
 
-FROM python:3.9.6-slim-bullseye AS run
+FROM python:3.10.0-slim-bullseye AS run
 
 WORKDIR /app
 
