@@ -148,7 +148,7 @@ python-versions = "*"
 
 [[package]]
 name = "mkv-private-package"
-version = "0.1.0"
+version = "0.2.0"
 description = "A dummy plugin."
 category = "main"
 optional = false
@@ -329,7 +329,7 @@ standard = ["websockets (>=9.1)", "httptools (>=0.2.0,<0.3.0)", "watchgod (>=0.6
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.9"
-content-hash = "93641ca78b69f102a90e8f66e6545c4ed45420b5ad3f02b2b10f5abde1566dbb"
+content-hash = "721b2f2662ef76e535fea15d9aff60dcc8c58ff4e962fe5b9452c6142e03df41"
 
 [metadata.files]
 anyio = [
@@ -385,8 +385,8 @@ iniconfig = [
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
 mkv-private-package = [
-    {file = "mkv-private-package-0.1.0.tar.gz", hash = "sha256:773ca4de5fd293e15deb623d3ab1e71dafe8f44483a5b224e70ac7aafa7815fa"},
-    {file = "mkv_private_package-0.1.0-py3-none-any.whl", hash = "sha256:8ad86ab1f977a766411b7b97a7edfdcdc1e6cff8d3a75c0a851e2d1f9145921e"},
+    {file = "mkv-private-package-0.2.0.tar.gz", hash = "sha256:46d7f6cdef9e17802b65e0655f698aabe55c0eecd4acd50ef9e4eaf673f246fb"},
+    {file = "mkv_private_package-0.2.0-py3-none-any.whl", hash = "sha256:9338e53a4daa5d62ff5eaf5028eee9cfd43a51e5203691a2c3e88c2a9d36ad80"},
 ]
 mypy = [
     {file = "mypy-0.900-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:07efc88486877d595cca7f7d237e6d04d1ba6f01dc8f74a81b716270f6770968"},
