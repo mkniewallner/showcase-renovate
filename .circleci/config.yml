@@ -7,7 +7,7 @@ orbs:
 jobs:
   build:
     environment:
-      POETRY_VERSION: "1.1.10" # renovate: datasource=pypi depName=poetry
+      POETRY_VERSION: "1.1.11" # renovate: datasource=pypi depName=poetry
     docker:
       - image: python:3.9.6-slim-bullseye
     steps:
