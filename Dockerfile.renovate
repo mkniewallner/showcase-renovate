@@ -5,7 +5,7 @@ USER root
 ENV RENOVATE_BINARY_SOURCE=global
 
 # renovate: datasource=docker depName=python versioning=docker
-ENV PYTHON_VERSION=3.9.6
+ENV PYTHON_VERSION=3.10.0
 
 # renovate: datasource=pypi depName=poetry
 ENV POETRY_VERSION=1.1.10

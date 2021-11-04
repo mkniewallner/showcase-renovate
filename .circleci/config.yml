@@ -9,6 +9,6 @@ jobs:
     environment:
       POETRY_VERSION: "1.1.10" # renovate: datasource=pypi depName=poetry
     docker:
-      - image: python:3.9.6-slim-bullseye
+      - image: python:3.10.0-slim-bullseye
     steps:
       - run: python --version
