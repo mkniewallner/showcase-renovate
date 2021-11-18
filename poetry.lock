@@ -15,6 +15,11 @@ doc = ["sphinx-rtd-theme", "sphinx-autodoc-typehints (>=1.2.0)"]
 test = ["coverage[toml] (>=4.5)", "hypothesis (>=4.0)", "pytest (>=6.0)", "pytest-mock (>=3.6.1)", "trustme", "uvloop (<0.15)", "mock (>=4)", "uvloop (>=0.15)"]
 trio = ["trio (>=0.16)"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "asgiref"
 version = "3.4.1"
@@ -26,6 +31,11 @@ python-versions = ">=3.6"
 [package.extras]
 tests = ["pytest", "pytest-asyncio", "mypy (>=0.800)"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "atomicwrites"
 version = "1.4.0"
@@ -33,6 +43,11 @@ description = "Atomic file writes."
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "attrs"
@@ -48,6 +63,11 @@ docs = ["furo", "sphinx", "zope.interface", "sphinx-notfound-page"]
 tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "zope.interface"]
 tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "certifi"
 version = "2021.10.8"
@@ -55,6 +75,11 @@ description = "Python package for providing Mozilla's CA Bundle."
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "charset-normalizer"
@@ -67,6 +92,11 @@ python-versions = ">=3.5.0"
 [package.extras]
 unicode_backport = ["unicodedata2"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "click"
 version = "8.0.3"
@@ -78,6 +108,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 colorama = {version = "*", markers = "platform_system == \"Windows\""}
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "colorama"
 version = "0.4.4"
@@ -86,6 +121,11 @@ category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "h11"
 version = "0.12.0"
@@ -93,6 +133,11 @@ description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
 category = "main"
 optional = false
 python-versions = ">=3.6"
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "httpcore"
@@ -109,6 +154,11 @@ sniffio = ">=1.0.0,<2.0.0"
 
 [package.extras]
 http2 = ["h2 (>=3,<5)"]
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "httpx"
@@ -130,6 +180,11 @@ brotli = ["brotlicffi", "brotli"]
 cli = ["click (>=8.0.0,<9.0.0)", "rich (>=10.0.0,<11.0.0)", "pygments (>=2.0.0,<3.0.0)"]
 http2 = ["h2 (>=3,<5)"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "idna"
 version = "3.3"
@@ -138,6 +193,11 @@ category = "main"
 optional = false
 python-versions = ">=3.5"
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "iniconfig"
 version = "1.1.1"
@@ -145,6 +205,11 @@ description = "iniconfig: brain-dead simple config-ini parsing"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "mkv-private-package"
@@ -157,7 +222,7 @@ python-versions = ">=3.9"
 [package.source]
 type = "legacy"
 url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
-reference = "gitlabpriv"
+reference = "579e"
 
 [[package]]
 name = "mypy"
@@ -176,6 +241,11 @@ typing-extensions = ">=3.7.4"
 dmypy = ["psutil (>=4.0)"]
 python2 = ["typed-ast (>=1.4.0,<1.5.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "mypy-extensions"
 version = "0.4.3"
@@ -183,6 +253,11 @@ description = "Experimental type system extensions for programs checked with the
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "packaging"
@@ -194,6 +269,11 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 pyparsing = ">=2.0.2,<3"
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "pluggy"
@@ -207,6 +287,11 @@ python-versions = ">=3.6"
 dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "py"
 version = "1.10.0"
@@ -215,6 +300,11 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "pyparsing"
 version = "2.4.7"
@@ -222,6 +312,11 @@ description = "Python parsing module"
 category = "dev"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "pytest"
@@ -244,6 +339,11 @@ toml = "*"
 [package.extras]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "pytest-asyncio"
 version = "0.16.0"
@@ -257,6 +357,11 @@ pytest = ">=5.4.0"
 
 [package.extras]
 testing = ["coverage", "hypothesis (>=5.7.1)"]
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "rfc3986"
@@ -272,6 +377,11 @@ idna = {version = "*", optional = true, markers = "extra == \"idna2008\""}
 [package.extras]
 idna2008 = ["idna"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "sniffio"
 version = "1.2.0"
@@ -280,9 +390,14 @@ category = "main"
 optional = false
 python-versions = ">=3.5"
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "starlette"
-version = "0.15.0"
+version = "0.17.1"
 description = "The little ASGI library that shines."
 category = "main"
 optional = false
@@ -292,7 +407,12 @@ python-versions = ">=3.6"
 anyio = ">=3.0.0,<4"
 
 [package.extras]
-full = ["itsdangerous", "jinja2", "python-multipart", "pyyaml", "requests", "graphene"]
+full = ["itsdangerous", "jinja2", "python-multipart", "pyyaml", "requests"]
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "toml"
@@ -302,6 +422,11 @@ category = "dev"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [[package]]
 name = "typing-extensions"
 version = "3.10.0.2"
@@ -309,6 +434,11 @@ description = "Backported and Experimental Type Hints for Python 3.5+"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
 
 [[package]]
 name = "uvicorn"
@@ -326,10 +456,15 @@ h11 = ">=0.8"
 [package.extras]
 standard = ["websockets (>=9.1)", "httptools (>=0.2.0,<0.3.0)", "watchgod (>=0.6)", "python-dotenv (>=0.13)", "PyYAML (>=5.1)", "uvloop (>=0.14.0,!=0.15.0,!=0.15.1)", "colorama (>=0.4)"]
 
+[package.source]
+type = "legacy"
+url = "https://gitlab.com/api/v4/projects/30941368/packages/pypi/simple"
+reference = "579e"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.9"
-content-hash = "93641ca78b69f102a90e8f66e6545c4ed45420b5ad3f02b2b10f5abde1566dbb"
+content-hash = "a156cec788431018df65c60d90af0729be027f0971b9f25490200f3a753c2ed7"
 
 [metadata.files]
 anyio = [
@@ -450,8 +585,8 @@ sniffio = [
     {file = "sniffio-1.2.0.tar.gz", hash = "sha256:c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de"},
 ]
 starlette = [
-    {file = "starlette-0.15.0-py3-none-any.whl", hash = "sha256:66dc8464dc4380f591f33248d23913830f501027ac26839329c99177cf119128"},
-    {file = "starlette-0.15.0.tar.gz", hash = "sha256:5c6e71fe8a11f690f78ab13363b0993eb7e5446986d3549902a81505afdaa08b"},
+    {file = "starlette-0.17.1-py3-none-any.whl", hash = "sha256:26a18cbda5e6b651c964c12c88b36d9898481cd428ed6e063f5f29c418f73050"},
+    {file = "starlette-0.17.1.tar.gz", hash = "sha256:57eab3cc975a28af62f6faec94d355a410634940f10b30d68d31cb5ec1b44ae8"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
